@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Addis - E-Commerce')</title>
     @vite([
-        'resources/css/app.css',
-        'resources/css/navbar.css',
+        'resources/css/app.css',        
     ])
 </head>
 <body>
@@ -19,5 +18,7 @@
         @yield('content')
     </main>
 
+    <!-- Footer -->
+    @include('components.footer')
 </body>
 </html>
