@@ -1,5 +1,6 @@
-@import './navbar.css';
-@import './footer.css';
+@import './components/navbar.css';
+@import './pages/home.css';
+@import './components/footer.css';
 /* Global Reset & Base Styles */
 * {
     margin: 0;

@@ -18,6 +18,9 @@
         @yield('content')
     </main>
 
+    <!-- Home hero banner -->
+     @include('pages.home')
+
     <!-- Footer -->
     @include('components.footer')
 </body>
